@@ -1,13 +1,8 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
-import { Card, Col, Row, Space, Spin, Button, Form, Input, Switch } from "antd";
-import { MinusCircleOutlined, PlusOutlined } from "@ant-design/icons";
-import { db } from "./firebaseConfigs";
-import { useSelector } from "react-redux";
+import Router from "./routes/Router";
 
 function App() {
-  return <div>hello</div>;
+  return <Router />;
 }
 
 export default App;
